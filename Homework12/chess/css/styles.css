@@ -1,0 +1,43 @@
+body {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;  
+}
+
+.intro {
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+.intro2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.form {
+    text-align: center;
+    margin: 10px;
+}
+
+.form-group {
+    text-align: center;
+    margin: 10px;
+}
+ 
+.table {
+    background: paleturquoise ;
+}
+
+td {
+    height: 60px;
+    width: 60px;
+}
+
+/* зададим класс */
+
+.td-color {
+    background: rgb(10, 156, 182);
+}
