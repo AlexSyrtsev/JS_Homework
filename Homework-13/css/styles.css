@@ -1,0 +1,109 @@
+body {
+	display: flex;  
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;  
+	background-color: paleturquoise;
+}
+
+.intro {
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+.intro2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.container {
+	display: flex;
+}
+
+.all-guys {
+	display: flex;
+	flex-direction: row;
+}
+
+.all-guys:hover {
+	cursor: pointer;
+}
+
+.one-guy {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 20px 50px;
+	background-color: rgb(10, 156, 182);
+	color: #fff;
+	border-radius: 35px 105px 0 0;
+}
+
+.one-guy:hover {
+	background-color: white;
+	color: rgb(10, 156, 182);
+	box-shadow: 0 -4px 2px 0 rgba(0,0,0,0.5);
+}
+
+button {
+	font-size: 16px;
+	font-weight: bold;
+	background-color: rgb(10, 156, 182);
+	padding: 18px 20px 25px 24px;
+	border-radius: 24px;
+	max-width: 190px;
+	margin: 0px 10px 0 10px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.guy-info {
+	display: flex;
+	background-color: white;
+	padding: 10px;
+}
+
+.guy-images img {
+	width: 110px;
+	height: 110px;
+	border-radius: 60px;
+}
+
+.guy-names {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 30px;
+	font-family: Arial;
+	font-size: 17px;
+	line-height: 1.5;
+}
+
+.active {
+	background-color: #fff;
+	color: rgb(10, 156, 182);
+}
+
+.invisible {
+	display: none;
+}
+
+.mistake {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	background-color: rgb(10, 156, 182);
+	font-weight: bolder;
+	border: solid grey;
+}
+
+@media screen and (max-width: 1100px) {
+	button {
+		font-size: 12px;
+	}	
+}
