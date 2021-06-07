@@ -1,0 +1,56 @@
+body {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;  
+}
+
+.buttons .button {
+	border-radius: 12px;
+	font-size: 20px;
+	background-color: rgb(146, 243, 0);
+	padding: 10px;
+}
+
+.stop-watch {
+	margin: 10px;
+}
+
+.stop-watch input {
+	font-weight: bold;
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border-radius: 12px;
+}
+
+.stop-watch .minutes,
+.stop-watch .seconds,
+.stop-watch .milliseconds {
+	background-color: rgb(255, 145, 0);
+	font-size: 25px;
+}
+
+.buttons {
+	display: flex;  
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;  
+	margin: 10px;
+}
+
+.saved-ones p {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.new-line input {
+	border-radius: 12px;
+	margin: 5px;
+	font-size: 18px;
+	background-color: antiquewhite;
+	padding: 5px;
+}
